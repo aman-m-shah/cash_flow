@@ -131,9 +131,6 @@ def show_dashboard():
 
     # Placeholders for other pages - we'll implement these in subsequent modules
 
-if __name__ == "__main__":
-    main()
-
 # Add this function to your app.py file
 
 def manage_bank_accounts():
@@ -958,3 +955,6 @@ def manage_recurring_transactions():
                     st.error(f"Error deleting transaction: {e}")
         else:
             st.info("No transactions available to delete.")
+
+if __name__ == "__main__":
+    main()
